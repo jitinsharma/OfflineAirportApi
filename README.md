@@ -1,8 +1,8 @@
 # Offline Airport API
-A simple Android Library to get Nearest Airport from latitude,longitude using a local json data
+A simple Android Library to get Nearest Airport(s) from latitude,longitude using a local json data
 (~28K airports).
 
-Local data is sourced from[here.](https://github.com/mwgg/Airports)
+Local data is sourced from [here.](https://github.com/mwgg/Airports)
 
 ## Why(s) and Good(s)
 - Ability to get nearest airport without a webservice call.
@@ -39,5 +39,9 @@ Get Multiple Nearest Airports
 
 **Check Sample App for Usage.**
 
+## TODO
+- Check for more sources of data.
+- Handle calculation asynchronously within the library.
+- Ability to detect location using GPS from library.
 
 ![screen](../master/img/1.png) ![screen](../master/img/2.png) ![screen](../master/img/3.png)
